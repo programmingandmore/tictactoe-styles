@@ -1,0 +1,33 @@
+.game-container{
+    width: 300px;
+    max-width: 90%;
+    aspect-ratio: 1;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+
+.game-square {
+    width: 30%;
+    aspect-ratio: 1;
+    border: 1px solid grey;
+    transition: all 0.5s ease-in-out;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-weight: 900;
+    background-color: white;
+}
+
+.red:hover {
+    background-color: red;
+    transition: all 0.5s ease-in-out;
+}
+
+.green:hover{
+    background-color: green;
+    transition: all 0.5s ease-in-out;
+}
